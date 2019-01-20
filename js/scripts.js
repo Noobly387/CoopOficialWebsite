@@ -6,41 +6,41 @@ const SRSettings = {
 };
 
 const SrClassOptions = {
-	duration: 4600,
+	duration: 3250,
 	scale: 0.85,
 	easing: 'ease-in-out',
 }
 
 const RightOptions = {
-	duration: 3400,
+	duration: 2000,
 	origin: 'right',
 	easing: 'ease-in-out',
 	distance: '10%'
 };
 
 const LeftOptions = {
-	duration: 3400,
+	duration: 2000,
 	origin: 'left',
 	easing: 'ease-in-out',
 	distance: '10%'
 };
 
 const TopOptions = {
-	duration: 3400,
+	duration: 2000,
 	origin: 'top',
 	easing: 'ease-in-out',
 	distance: '10%'
 };
 
 const BottomOptions = {
-	duration: 3400,
+	duration: 2000,
 	origin: 'bottom',
 	easing: 'ease-in-out',
 	distance: '10%'
 };
 
 const LogoOptions = {
-	duration: 2700,
+	duration: 2000,
 	origin: 'top',
 	distance: '10%'
 };
