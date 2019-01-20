@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+html {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif !important;
+	background-color: #e7e7e7;
+	height: 100vh;
+	width: 100%;
+}
+
+.navbar-main {
+	background-color: #333333 !important;
+}
+
+.navbar-main .nav-item {
+	padding: 14px 16px;
+	transition: ease-in-out;
+	transition-duration: 200ms;
+}
+
+.navbar-main .nav-item:hover {
+	background-color: #ddd;
+}
+
+.navbar-main .nav-item:hover .nav-link{
+	color: black !important;
+}
+
+.nav-link {
+	color: white !important;
+	font-size: 1.06em;
+	text-align: center;
+}
+
+.navbar-nav .active{
+	background-color: #00BDFF;
+}
+
+.presentation-sect {
+	margin-top: 65px;
+}
+
+.img-init{
+	width: 100%;
+	height: auto;
+	max-width: 600px;
+}
+
+#text-init-cont {
+	background-color: #1d1d1d !important;
+}
+
+#img-init-cont {
+	background-color: #1d1d1d !important;
+}
+
+#text-init-cont h1 {
+	color: #367AE7;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+
+.lore-sect {
+	background-color: white !important;
+	padding: 75px;
+}
+
+.lore-sect p {
+	font-size: 2em;
+}
+
+.bot-link img {
+	width: 75%;
+    border-radius: 50%;
+    transition-duration: 200ms;
+    border: 10px solid #00ABE8;
+}
+
+.bot-link img:hover {
+	width: 70%;
+}
+
+.bot-link {
+	cursor: pointer;
+	padding-right: 15%;
+	padding-left: 15%;
+}
+
+.announcement-sect {
+	background-color: white !important;
+	padding: 75px;
+}
+
+.main-footer {
+	background-color: #1d1d1d !important;
+    color: white;
+    padding: 75px;
+    text-align: center;
+}
+
+html.sr .top-reveal,
+html.sr .bot-reveal,
+html.sr .right-reveal,
+html.sr .left-reveal,
+html.sr .reveal-logo {
+	visibility: hidden;
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+	#text-init-cont h1 {
+		font-size: 8vw;
+	}
+
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	#text-init-cont {
+		padding-top: 12vh;
+	}
+	
+	#text-init-cont h1 {
+		font-size: 5vw;
+	}
+
+ }
+
+/* Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }*/
